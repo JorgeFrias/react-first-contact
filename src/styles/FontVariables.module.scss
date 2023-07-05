@@ -1,0 +1,31 @@
+// Inter font - Titles & Actions
+// Open Sans font - Texts
+
+// Titles
+$font-family-title: "Inter", sans-serif;
+$font-weight-title: 700;
+$font-size-title: 2rem;
+
+// Actions
+$font-family-action: "Inter", sans-serif;
+$font-weight-action: 700;
+$font-size-action: 1.2rem;
+
+// Texts
+$font-family-text: "Open Sans", sans-serif;
+$font-weight-text: 400;
+$font-size-text: 1rem;
+
+:export {
+    font-family-title: $font-family-title;
+    font-weight-title: $font-weight-title;
+    font-size-title: $font-size-title;
+
+    font-family-action: $font-family-action;
+    font-weight-action: $font-weight-action;
+    font-size-action: $font-size-action;
+
+    font-family-text: $font-family-text;
+    font-weight-text: $font-weight-text;
+    font-size-text: $font-size-text;
+}
