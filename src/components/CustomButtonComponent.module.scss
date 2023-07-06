@@ -22,4 +22,12 @@
         background-color: #353535;
         color: #FFFFFF;
     }
+
+    &:hover {
+        // 1. Grows the button slightly
+        // 2. The shadow is slightly more pronounced
+        transform: scale(1.05);
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
 }

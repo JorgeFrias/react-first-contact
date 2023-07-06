@@ -1,7 +1,12 @@
 // `app/page.tsx` is the UI for the `/` URL
 "use client";
 
-import { ButtonRole, CustomButton } from "../src/components/CustomButtonComponent";
+import {
+  ButtonRole,
+  CustomButton,
+} from "../src/components/CustomButtonComponent";
+
+import GraphProgressBar from "../src/components/GraphProgressBarComponent";
 
 export default function Page() {
   const handleClick = () => {
@@ -22,6 +27,10 @@ export default function Page() {
         onClick={handleClick}
         children="Better me"
       />
+
+      <GraphProgressBar label="Progress" progress={0.5} />
+      <GraphProgressBar label="Progress" progress={0.1} />
+      <GraphProgressBar label="Progress" progress={0.8} />
     </>
   );
 }
