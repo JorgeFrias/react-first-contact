@@ -1,0 +1,29 @@
+@import '../styles/FontVariables.module.scss';
+
+.panel {
+    padding: 2rem;
+    background-color: #f3f6ff0b;
+    border-radius: 2rem;
+
+    div {
+        display: grid;
+        gap: 0.6rem;  
+    }
+    
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+        font-size: $font-size-title * 0.7;
+        margin-bottom: 1rem;
+    }
+
+    .action_group {
+        // All contents are in line, and the space between them is 1rem, all aligned to the left
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: flex-end;
+
+        margin-top: 2rem;
+    }
+}
